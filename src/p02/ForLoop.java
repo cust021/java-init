@@ -21,6 +21,7 @@ public class ForLoop {
 		for(int i=9;i>=1;i--) {
 			System.out.println(i + "x" + 1 + "=" + i);
 			
+			
 		}
 		
 		
