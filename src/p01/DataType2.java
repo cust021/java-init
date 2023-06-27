@@ -7,7 +7,7 @@ public class DataType2 {
 	public static void main(String[] args) {
 		String str = "1234";
 		System.out.println(str.length());
-		System.out.println(str.substring(1));
+		System.out.println(str.substring(1)); //배열 1부터 출력
 		System.out.println(str.substring(1,3));
 		
 		
@@ -22,3 +22,4 @@ public class DataType2 {
 	}
 
 }
+

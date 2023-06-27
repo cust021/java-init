@@ -18,6 +18,7 @@ public class Condition {
 		}
 		
 		
+		
 		else{
 			System.out.println("11살이 아니군");
 		}

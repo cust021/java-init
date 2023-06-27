@@ -14,3 +14,4 @@ public class AccessModifier {
 	}
 
 }
+//대문자는 참조형 소문자는 기본형(변수와 값만 존재)

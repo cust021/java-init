@@ -7,9 +7,9 @@ public class FindNum {
 
 	public static void main(String[] args) {
 		Random r = new Random();
-		int rNum = r.nextInt(3) + 1;
-		Scanner scan = new Scanner(System.in);
-		for(int i=1; i<=3; i++) {
+		int rNum = r.nextInt(5) + 1;
+		Scanner scan = new Scanner(System.in); //사용자로부터 키를 입력 받기 위해
+		for(int i=1; i<=5; i++) {
 			System.out.print("맞출 숫자를 입력 :" );
 			String str = scan.nextLine();
 			int num = Integer.parseInt(str);

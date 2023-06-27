@@ -3,7 +3,7 @@ package p02;
 public class Arraytest3 {
 
 	public static void main(String[] args) {
-		String[] strs = new String[10];
+		String[] strs = new String[10];  	//new는 메모리를 새로 만들어줌 int 배열시 new 배열 값엔 값이 항상 존재
 		
 		/*
 		 * 0 ->10

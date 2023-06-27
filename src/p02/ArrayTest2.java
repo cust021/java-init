@@ -3,7 +3,7 @@ package p02;
 public class ArrayTest2 {
 
 	public static void main(String[] args) {
-		String[] strs = new String[10];
+		String[] strs = new String[10];  // 
 		/*
 		 * 0 ->2
 		 * 1-> 4

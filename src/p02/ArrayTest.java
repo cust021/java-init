@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class ArrayTest {
 	public static void main(String[] args) {
-		String[] strs; //변수의 선언
+		String[] strs; //변수의 선언 참조형(대문자)
 		String[] strs2 = new String[2]; // 변수의 선언과 초기화
 		
 		System.out.println(strs2[0]);
