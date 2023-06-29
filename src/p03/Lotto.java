@@ -5,7 +5,6 @@ import java.util.Random;
 public class Lotto {
 		public static void main(String[] args) {
 			Random r = new Random();
-			
 			int[] lotto = new int[6];
 			for(int i=0; i<lotto.length; i++) 
 			{
