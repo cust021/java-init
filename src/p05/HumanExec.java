@@ -33,7 +33,6 @@ public class HumanExec {
 		human[4].money = 15000;
 		
 		
-		
 		int sum =0;		
 		for(int i=0; i<human.length; i++) {
 			sum+= human[i].money;

@@ -12,6 +12,7 @@ public class SongExec2 {
 	*/
 	
 	public static void main(String[] args) {
+		
 		Songss s = new Songss();
 		
 		
@@ -21,7 +22,13 @@ public class SongExec2 {
 		songs1[0].name = "하입보이";
 		songs1[0].singer = "뉴진스";
 		songs1[0].rank = 10;
-		System.out.println(songs1[0]);
+		
+		String name = "";
+		for(int i=0; i<songs1.length; i++) {
+			
+		
+		}
+		System.out.println(name);
 		//printSongs(songs1);
 	}
 }
