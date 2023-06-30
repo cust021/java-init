@@ -19,7 +19,7 @@ public class Lotto3 {
 		int rNum = Integer.parseInt(scan.nextLine());
 		for(int i = 0; i <strs.length; i++) {
 			for(int j=0; j<lotto.length;j++) {
-				//String lottoString = Integer.toString(lotto[i]);
+				//String lottoString = Integer.toString(lotto[i]);			//월요일 쪽지 시험예상
 				//lottoString = String.valueOf(lotto[i]);
 				if(lotto[i] == rNum) {
 					cnt++;

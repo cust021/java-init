@@ -25,8 +25,7 @@ public class UpAndDown {
 		
 		Scanner scan = new Scanner(System.in);
 		int num = 0;
-		
-	
+
 		while(!match(rNum,num)) {
 		System.out.println("1-50 중 원하는 숫자를 입력하세요 : ");
 		String numStr = scan.nextLine();
