@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MethodTest4 {
-
+												//() : 없으면 변수
 	public static int[] getLotto() {  			//메서드()란 : 기능을 저장하기 위해서 사용함
 		int[] lotto = new int[6];
 		for(int i=0; i<lotto.length; i++) {
