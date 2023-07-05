@@ -1,7 +1,7 @@
 package p07;
 
 
-public class OverLoading { 	
+public class OverLoading { 	//OverLoading은 같은 영역이여만 한다.
 	/*
 	 * public이란 다른 곳(다른 클래스,패키지)에서 접근이 가능하게끔 만듬
 	 * public, protected, default private = 접근 수정(제어)자
