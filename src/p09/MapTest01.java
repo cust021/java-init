@@ -52,9 +52,7 @@ public class MapTest01 {
 		foodmap.add(m4);
 		foodmap.add(m5);
 		
-		//System.out.println(foodmap);
-		
-		for(int i=0; i<foodmap.size(); i++) {
+	/*	for(int i=0; i<foodmap.size(); i++) {
 			Map<String,String> map = foodmap.get(i);
 			Iterator<String> it = map.keySet().iterator();
 			while(it.hasNext()) {
@@ -62,6 +60,11 @@ public class MapTest01 {
 				System.out.print(key + " : " + map.get(key) + " , ");
 			}
 			System.out.println();
+		}
+		*/
+		
+		for(Map<String,String> map : foodmap) {
+			System.out.println(map);
 		}
 	}
 	

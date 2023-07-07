@@ -33,6 +33,10 @@ public class MapTest1 {
 		mapList.add(m2);
 		mapList.add(m3);
 		System.out.println(mapList);
+		
+		for(Map<String,String> name : mapList) {
+			System.out.println(name);
+		}
 	}
 	
 }
